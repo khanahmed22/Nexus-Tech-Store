@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /pages/shop/Home
+Allow: /pages/shop/Laptop
+Allow: /pages/shop/Phone
+Allow: /pages/shop/Audio
+Allow: /pages/Extra
+Disallow: /pages/cart/cart
