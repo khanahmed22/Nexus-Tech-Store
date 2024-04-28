@@ -1,0 +1,146 @@
+.contact-style {
+  margin-top: 100px;
+  margin-left: 20px;
+
+
+}
+
+
+
+.Grid-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
+
+}
+
+.Grid-form svg {
+  width: 300px;
+}
+
+.contact-form {
+  background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+ background-blend-mode: normal, lighten, soft-light;
+  width: 90%;
+  padding: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.contact-form input {
+  padding: 10px;
+  border-radius: 5px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.contact-form p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  color: white;
+}
+
+.contact-form textarea {
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.send-btn:hover {
+  opacity: 0.6;
+}
+
+.send-btn svg {
+  fill: white;
+  width: 20px;
+}
+
+.mailbox {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+  border: 1px solid rgb(190, 217, 226);
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #6a93cb;
+  padding: 20px;
+  border-radius: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.social-media svg {
+  fill: white;
+  width: 100px;
+  cursor: pointer;
+  transition: fill 0.25s ease;
+}
+
+.social-media svg:hover {
+  fill: rgb(88, 181, 218);
+
+}
+
+@media (max-width:800px) {
+  .Grid-form {
+    grid-template-columns: auto;
+    row-gap: 20px;
+  }
+
+  .contact-form{
+    width: 72%;
+  }
+
+  .contact-form input {
+    width: 80%;
+  }
+
+  .contact-form textarea {
+    width: 80%;
+  }
+
+  .mailbox {
+    margin-right: 30px;
+  }
+
+  .mailbox svg {
+    width: 60%;
+  }
+}

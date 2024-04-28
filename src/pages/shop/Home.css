@@ -1,0 +1,701 @@
+
+
+.swiper-div{
+  margin-top: 100px;
+}
+
+
+.swiper {
+  width: 60%;
+  height: 400px;
+  background-color: rgb(217, 224, 224);
+  
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(217, 224, 224);
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  object-fit:cover;
+}
+
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+
+
+
+
+
+
+.Grid-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 10px;
+  
+}
+
+.laptop-div{
+  
+  position: relative;
+}
+.laptop-div img{
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.laptop-info{
+  position: absolute;
+  top:30%;
+  left: 60%;
+}
+
+.laptop-info p{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.laptop-info button{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 80px;
+  transition: background-color 0.25s ease-in;
+  font-weight: 600;
+}
+
+.laptop-info button:hover{
+  background-color: black;
+  color: white;
+}
+
+.phone-div{
+  position: relative;
+  object-fit: cover;
+  
+}
+
+.phone-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  
+}
+
+.phone-info{
+  position:absolute;
+  top:30%;
+  left: 5%;
+}
+
+.phone-info p{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.phone-info button{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 80px;
+  transition: background-color 0.25s ease-in;
+  font-weight: 600;
+}
+
+.phone-info button:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+.earbud-div{
+  position: relative;
+  object-fit: cover;
+  
+}
+
+.earbud-div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  
+}
+
+.earbud-info{
+  position:absolute;
+  top:30%;
+  left: 5%;
+}
+
+.earbud-info p{
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.earbud-info button{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 80px;
+  transition: background-color 0.25s ease-in;
+  font-weight: 600;
+}
+
+.earbud-info button:hover{
+  background-color: black;
+  color: white;
+}
+
+.bestsellers{
+  
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flexbox-1{
+  display: flex;
+  text-align: center;
+  place-content: center;
+  height: 400px;
+  margin-bottom: 50px;
+  
+  
+  
+
+}
+
+.acer{
+  background-color: rgb(217, 224, 224);
+  margin-right: 20px;
+  height: 557px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  width: 40%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border:  1px solid lightgrey;
+  
+}
+
+.acer img{
+  width: 60%;
+  aspect-ratio: 3/3;
+  
+}
+
+.acer p{
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.acer button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding: 10px;
+  transition: background-color 0.25s ease-in;
+}
+
+.acer button:hover{
+  background-color: white;
+  color: black;
+}
+
+.sub-flex{
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+
+  
+  
+  
+  
+}
+
+.sub-flex img{
+  width: 150px;
+  aspect-ratio: 3/3;
+  
+}
+
+
+
+.sub-flex div{
+  background-color:  rgb(217, 224, 224);
+  height: fit-content;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  border-radius: 20px;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border:  1px solid lightgrey;
+}
+
+.sub-flex div h2{
+  margin-top: -100px;
+  margin-top: 0;
+}
+
+.sub-flex div p{
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.sub-flex div button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  transition: background-color 0.25s ease-in;
+}
+
+.sub-flex div button:hover{
+  background-color: white;
+  color: black;
+}
+
+.work{
+  margin-top: 180px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Grid-2{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  column-gap: 20px;
+
+}
+
+.Grid-2 div h3{
+  font-size: 120%;
+}
+
+.Grid-2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(217, 224, 224);
+  border-radius: 20px;
+  padding: 10px;
+  height: 400px;
+  cursor: pointer;
+  border:  1px solid lightgrey;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Grid-2 div p{
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.Grid-2 div img{
+  width: 100%;
+  aspect-ratio: 3/3;
+
+}
+
+.fun{
+  margin-top: 34px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Grid-3{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 40px;
+  margin-right: 40px;
+  place-items: center;
+  column-gap: 20px;
+  
+  
+  
+  
+
+}
+
+.Grid-3 div h3{
+  font-size: 120%;
+}
+
+.Grid-3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(217, 224, 224);
+  border-radius: 20px;
+  padding: 10px;
+  height: 400px;
+  cursor: pointer;
+  width: 80%;
+  border:  1px solid lightgrey;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Grid-3 div p{
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.Grid-3 div img{
+  width: 100%;
+  aspect-ratio: 3/3;
+
+}
+
+.audiophile{
+  margin-top: 34px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.Grid-4{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+  place-items: center;
+  column-gap: 20px;
+
+}
+
+.Grid-4 div h3{
+  font-size: 120%;
+}
+
+.Grid-4 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:  rgb(217, 224, 224);
+  border-radius: 20px;
+  padding: 10px;
+  height: 400px;
+  cursor: pointer;
+  width: 70%;
+  place-items: center;
+  border:  1px solid lightgrey;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.Grid-4 div p{
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 10px;
+}
+
+.Grid-4 div img{
+  width: 80%;
+  aspect-ratio: 3/3;
+
+}
+
+.choose{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+
+.features-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-left: 10px;
+  margin-right: 10px;
+  column-gap: 20px;
+ 
+
+}
+
+.features-grid div{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.features-grid div p{
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.features-grid img{
+  width: 200px;
+  aspect-ratio: 2/1.7;
+  
+  
+}
+
+
+@media (max-width:800px){
+
+  html,body
+{
+
+
+overflow-x: hidden;
+max-width: 100%;
+
+
+}
+
+
+
+  
+
+  .work h2{
+    margin-top: 400px;
+    font-size: 20px;
+  }
+
+  h2{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    font-size: 20px;
+  }
+
+ 
+
+
+  .swiper{
+    height: 220px;
+    width: 100%;
+  }
+
+  .swiper-slide img{
+    object-fit: contain;
+    height: 300px;
+  }
+
+  .Grid-1{
+    grid-template-columns: auto;
+    row-gap: 20px;
+    
+  }
+
+  .Grid-2, .Grid-3{
+    row-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Grid-4{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+  }
+
+  .Grid-1 div{
+    height: 225px;
+  }
+
+  .Grid-2 div{
+    height:250px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  
+
+  .Grid-3 div{
+    height:250px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    
+    
+  }
+
+  .Grid-4 div{
+    height: 220px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    
+  }
+
+  .phone-div img{
+    height: 250px;
+  }
+
+  .laptop-div img{
+    height: 250px;
+  }
+
+  .earbud-div img{
+    height: 250px;
+  }
+
+  
+  .flexbox-1{
+    flex-direction: column;
+   margin-top: 220px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  
+
+  .sub-flex div{
+    height: fit-content;
+  }
+
+  .acer{
+    width: 100%;
+    
+    margin-bottom: 10px;
+  }
+
+  
+  .features-grid{
+    grid-template-columns: auto;
+    row-gap: 15px;
+  }
+
+  .choose {
+    font-size: 12px;
+  }
+
+  .choose h2{
+    font-size: 20px;
+  }
+
+  .bestsellers h2{
+    font-size: 25px;
+  }
+
+  .fun h2{
+    font-size: 20px;
+  }
+
+  .audiophile h2{
+    font-size: 20px;
+  }
+
+  
+
+
+
+ 
+
+  
+
+  
+  
+}
+
+
